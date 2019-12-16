@@ -4,15 +4,27 @@
 # Input : 8     Output : False
 # Input : 25    Output : True
 
-def ChkNum():
+def ChkNum(Num):
     
-    i=(int(input("Enter the  number : ")));    
-    
-    if(i>0):
-        print("Given Number Is Positive.");
-    elif(i<0):
-        print("Given Number Is Negative.");
+    if(Num % 5 == 0):
+        print("TRUE")
     else:
-        print("Given Number Is Zero.");
+        print("FALSE")
+        
+Num=(int(input("Enter the  number : ")));          
+ChkNum(Num)
+
+
+
+##############  OR  ############
+
+
+def ChkNum(Num):
     
-ChkNum();
+    if(Num % 5 == 0):
+        return "TRUE"
+    else:
+        return "FALSE"
+        
+Num=(int(input("Enter the  number : ")));          
+ChkNum(Num)
