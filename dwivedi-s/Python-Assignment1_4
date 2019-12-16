@@ -1,0 +1,31 @@
+# Write a program which contains one function named as Add() which accepts two numbers
+# from user and return addition of that two numbers.
+
+# Input : 11   5        Output : 16
+
+
+def add(Num1,Num2):
+    
+    return Num1+Num1
+
+Num1=int(input("Enter Your 1st Number : "));
+Num2=int(input("Enter Your 2nd Number : "));
+
+print("Addition of Two Number is :",add(Num1,Num2));
+
+
+
+
+# Or Try This one
+
+
+
+def Add(No1,No2):
+    ans=No1+No2;
+    print(ans)
+   # return ans;
+
+Add(10,20);
+
+
+
